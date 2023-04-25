@@ -1,8 +1,8 @@
 FROM nginx
  
-RUN sudo yum update 
+RUN yum update 
  
-RUN sudo yum upgrade
+RUN yum upgrade
  
 COPY index.html /usr/share/nginx/html
  
