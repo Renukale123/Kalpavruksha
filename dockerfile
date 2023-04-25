@@ -1,8 +1,8 @@
 FROM nginx
  
-RUN brew update 
+RUN sudo yum update 
  
-RUN brew upgrade
+RUN sudo yum upgrade
  
 COPY index.html /usr/share/nginx/html
  
